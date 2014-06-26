@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btBgSelectorBlockContent">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="selectedBg" type="I"></field>
+		<field name="appliedClass" type="X2">
+		</field>
+		<field name="backgroundRepeat" type="C" size="20"></field>
+		<field name="backgroundAttachment" type="C" size="20"></field>
+		<field name="backgroundPosition" type="C" size="20"></field>
+		<field name="backgroundPositionCustom" type="C" size="20"></field>
+		<field name="backgroundSize" type="C" size="20"></field>
+	</table>
+</schema>
